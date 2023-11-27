@@ -20,7 +20,7 @@ with open("README.md") as readme:
 
 setup(
     name="font-atlas",
-    version="1.0.0",
+    version="1.0.1",
     ext_modules=[ext],
     license="MIT",
     python_requires=">=3.7",

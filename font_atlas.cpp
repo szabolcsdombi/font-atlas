@@ -90,7 +90,7 @@ static PyObject * meth_load_font(PyObject * self, PyObject * args, PyObject * kw
 
 static int module_exec(PyObject * self) {
     ModuleState * state = (ModuleState *)PyModule_GetState(self);
-    PyModule_AddObject(self, "__version__", PyUnicode_FromString("1.0.0"));
+    PyModule_AddObject(self, "__version__", PyUnicode_FromString("1.0.1"));
     return 0;
 }
 
